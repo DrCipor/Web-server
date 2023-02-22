@@ -34,6 +34,6 @@ app.get('/elements', (req, res) => {
     });
 });
 
-app.listen(8080, () => {
+app.listen(port, () => {
     console.log(`Servidor corriendo en el puerto ${port}`)
 });
